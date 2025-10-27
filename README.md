@@ -1,5 +1,6 @@
 # Occam-Extension (JavaScript)
 
+![openart-470c17539e1e44e9aca4562e265fcc4f_raw (1)](https://github.com/user-attachments/assets/e29c89e7-edb2-463c-a9f7-c4781439dff5)
 
 
 > **Work in Progress** - API to be released
