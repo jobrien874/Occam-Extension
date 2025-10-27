@@ -6,8 +6,6 @@ Ever wondered if that function you just wrote is getting a bit too complex? This
 
 ## See It in Action
 
-https://github.com/user-attachments/assets/b9eeba5a-d8be-4043-9646-c88d935c2335
-
 Watch how the extension analyzes JavaScript functions and provides complexity insights right in your editor.
 
 ## What Does It Do?
