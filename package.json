@@ -1,6 +1,6 @@
 {
-  "name": "code-complexity-analyzer",
-  "displayName": "Code Complexity Analyzer",
+  "name": "occam-extension",
+  "displayName": "Occam Extension",
   "description": "AI-powered real-time code complexity analysis for JavaScript functions",
   "version": "1.0.0",
   "publisher": "occam",
