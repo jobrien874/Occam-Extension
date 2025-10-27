@@ -6,6 +6,10 @@
 
 Ever wondered if that function you just wrote is getting a bit too complex? This VS Code extension helps you keep your JavaScript code clean by analyzing functions in real-time and giving you instant feedback on their complexity.
 
+If you find this helpful - consider buying me a brew :) 
+
+<a href="https://www.buymeacoffee.com/jobrien874" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
 ## See It in Action
 
 https://github.com/user-attachments/assets/82a38245-f5f0-4174-86f9-bf8da95132d9
