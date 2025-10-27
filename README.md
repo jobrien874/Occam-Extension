@@ -1,5 +1,6 @@
 # Occam-Extension (JavaScript)
 
+<img width="230" height="230" alt="cropped_circle_image (1)" src="https://github.com/user-attachments/assets/98bc85d2-20d4-44d2-968a-302726d275e7" />
 
 > **Work in Progress** - API to be released
 
