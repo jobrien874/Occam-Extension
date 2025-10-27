@@ -1,8 +1,5 @@
 # Occam-Extension (JavaScript)
 
-![openart-470c17539e1e44e9aca4562e265fcc4f_raw (1)](https://github.com/user-attachments/assets/e29c89e7-edb2-463c-a9f7-c4781439dff5)
-
-
 > **Work in Progress** - API to be released
 
 Ever wondered if that function you just wrote is getting a bit too complex? This VS Code extension helps you keep your JavaScript code clean by analyzing functions in real-time and giving you instant feedback on their complexity.
