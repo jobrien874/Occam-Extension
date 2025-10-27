@@ -2,7 +2,7 @@
 
 <img width="230" height="230" alt="cropped_circle_image (1)" src="https://github.com/user-attachments/assets/98bc85d2-20d4-44d2-968a-302726d275e7" />
 
-> **Work in Progress** - Will make use of Occam Lite out of the box https://github.com/jobrien874/Occam-AI-Lite/
+> **Work in Progress** - Will make use of Occam Lite out of the box
 
 Ever wondered if that function you just wrote is getting a bit too complex? This VS Code extension helps you keep your JavaScript code clean by analyzing functions in real-time and giving you instant feedback on their complexity.
 
