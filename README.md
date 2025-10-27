@@ -1,10 +1,14 @@
 # Occam-Extension (JavaScript)
+<img width="220" height="220" alt="cropped_circle_image" src="https://github.com/user-attachments/assets/0c29e7b5-737b-4042-a484-41102fdf993f" />
 
 > **Work in Progress** - API to be released
 
 Ever wondered if that function you just wrote is getting a bit too complex? This VS Code extension helps you keep your JavaScript code clean by analyzing functions in real-time and giving you instant feedback on their complexity.
 
 ## See It in Action
+
+https://github.com/user-attachments/assets/82a38245-f5f0-4174-86f9-bf8da95132d9
+
 
 Watch how the extension analyzes JavaScript functions and provides complexity insights right in your editor.
 
