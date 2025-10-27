@@ -1,0 +1,84 @@
+{
+  "name": "code-complexity-analyzer",
+  "displayName": "Code Complexity Analyzer",
+  "description": "AI-powered real-time code complexity analysis for JavaScript functions",
+  "version": "1.0.0",
+  "publisher": "occam",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Linters",
+    "Other"
+  ],
+  "keywords": [
+    "complexity",
+    "javascript",
+    "code quality",
+    "analysis",
+    "ai"
+  ],
+  "activationEvents": [
+    "onLanguage:javascript",
+    "onLanguage:typescript"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "codeComplexity.analyzeFunction",
+        "title": "Analyze Function Complexity",
+        "category": "Code Complexity"
+      },
+      {
+        "command": "codeComplexity.toggleInlineAnalysis",
+        "title": "Toggle Inline Analysis",
+        "category": "Code Complexity"
+      },
+      {
+        "command": "codeComplexity.showReport",
+        "title": "Show Complexity Report",
+        "category": "Code Complexity"
+      }
+    ],
+    "configuration": {
+      "title": "Code Complexity Analyzer",
+      "properties": {
+        "codeComplexity.apiEndpoint": {
+          "type": "string",
+          "default": "http://localhost:8000",
+          "description": "API endpoint for complexity analysis"
+        },
+        "codeComplexity.apiKey": {
+          "type": "string",
+          "default": "",
+          "description": "API key for authentication (optional)"
+        },
+        "codeComplexity.inlineAnalysis": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable inline complexity hints"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.80.0",
+    "@types/node": "16.x",
+    "@typescript-eslint/eslint-plugin": "^5.59.1",
+    "@typescript-eslint/parser": "^5.59.1",
+    "eslint": "^8.39.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
